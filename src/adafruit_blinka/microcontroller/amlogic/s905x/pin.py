@@ -152,7 +152,8 @@ UART2_TX = GPIOX_12
 UART2_RX = GPIOX_13
 
 # ordered as uartId, txId, rxId
-uartPorts = ((1, UART1_TX, UART1_RX),)
+uartPorts = ((1, UART1_TX, UART1_RX),
+             (2, UART2_TX, UART2_RX),)
 
 
 I2C0_SDA = GPIOAO_5
